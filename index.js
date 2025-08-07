@@ -7,9 +7,9 @@ const consign = require('consign')
 const serverip = 'localhost'
 const port = 3000
 
-app.use(express.json())
+/*app.use(express.json())
 app.use(express.text())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.urlencoded({ extended: true }))*/
 
 consign()
     .include('./config/middlewares.js')

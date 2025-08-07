@@ -5,22 +5,19 @@
  */
 module.exports = {
 
-  /*development: {
+  development: {
     client: 'sqlite3',
     connection: {
       filename: './dev.sqlite3'
     }
-  },*/
-
-  //staging: {
+  },
     client: 'mysql2',
     connection: {
-      //host: '127.0.0.1',
       host: '127.0.0.1',
       port: '3306',
       database: 'smartagro',
       user:     'root',
-      password: '253324'
+      password: '123'
     },
     pool: {
       min: 2,
